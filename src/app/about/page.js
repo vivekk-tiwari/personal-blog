@@ -8,24 +8,31 @@ export default function About() {
         
         <div className="prose prose-lg max-w-none">
           <p className="text-gray-600 text-lg leading-relaxed mb-6">
-            Hello! I'm Vivek, a passionate developer and creative thinker based in [Your Location]. 
-            I love building things that live on the internet, whether that be websites, applications, or anything in between.
+            Thought I'd do an intro for myself.
           </p>
           
           <p className="text-gray-600 text-lg leading-relaxed mb-6">
-            My journey in technology began [X] years ago when I first discovered my passion for coding. 
-            Since then, I've had the privilege of working on a variety of projects that have helped me 
-            grow both professionally and personally.
+            Hi, I'm Vivek.
           </p>
           
           <p className="text-gray-600 text-lg leading-relaxed mb-6">
-            When I'm not coding, you can find me [your hobbies/interests]. I believe in continuous learning 
-            and staying up-to-date with the latest technologies and best practices in the industry.
+            My life's complexity ≈ "Google" as a verb. Still figuring out the algorithm.
+          </p>
+          
+          <p className="text-gray-600 text-lg leading-relaxed mb-6">
+            If you've ever dreamed of a million-dollar company, I'm your Co-Founder—just kidding.
+          </p>
+          
+          <p className="text-gray-600 text-lg leading-relaxed mb-6">
+            Here to find brilliant minds and build cool stuff 🤝🚀
+          </p>
+          
+          <p className="text-gray-600 text-lg leading-relaxed mb-6">
+            I write about life, the life around you and my perspective on the world in front of your eyes.
           </p>
           
           <p className="text-gray-600 text-lg leading-relaxed">
-            I'm always interested in hearing about new opportunities and exciting projects. 
-            Feel free to reach out if you'd like to connect or collaborate on something interesting!
+            Hope you find some wisdom from me.
           </p>
         </div>
       </div>
