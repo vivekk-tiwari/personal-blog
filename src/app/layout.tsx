@@ -6,7 +6,9 @@ export const metadata: Metadata = {
   title: "Vivek's Personal Website",
   description: "Personal website and blog of Vivek - Developer and Creative Thinker",
   icons: {
-    icon: '/website.png',
+    icon: [
+      { url: '/website.png', type: 'image/png' },
+    ],
     shortcut: '/website.png',
     apple: '/website.png',
   },
@@ -20,9 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/website.png" />
-        <link rel="shortcut icon" href="/website.png" />
+        <link rel="icon" type="image/png" href="/website.png" />
+        <link rel="shortcut icon" type="image/png" href="/website.png" />
         <link rel="apple-touch-icon" href="/website.png" />
+        <meta name="theme-color" content="#ffffff" />
       </head>
       <body className="antialiased">
         <div className="min-h-screen flex">
