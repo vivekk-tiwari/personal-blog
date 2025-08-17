@@ -5,6 +5,11 @@ import Navbar from '../components/Navbar';
 export const metadata: Metadata = {
   title: "Vivek's Personal Website",
   description: "Personal website and blog of Vivek - Developer and Creative Thinker",
+  icons: {
+    icon: '/website.png',
+    shortcut: '/website.png',
+    apple: '/website.png',
+  },
 };
 
 export default function RootLayout({
@@ -14,6 +19,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/website.png" />
+        <link rel="shortcut icon" href="/website.png" />
+        <link rel="apple-touch-icon" href="/website.png" />
+      </head>
       <body className="antialiased">
         <div className="min-h-screen flex">
           {/* Fixed Left Sidebar */}
